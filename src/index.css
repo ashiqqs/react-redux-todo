@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-done{
+  background: rgb(222, 243, 234);
+  border: 1px solid #bbb;
+}
+.float-right{
+  float: right;
+}
