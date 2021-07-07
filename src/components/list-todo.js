@@ -11,7 +11,7 @@ export function ListTodo(){
                 <td>{todo.task}</td>
                 <td>{todo.isComplete?'done':'pending'}</td>
                 <td>
-                    <button onClick={()=>dispatch(toggle(todo.id))} className={`btn btn-${todo.isComplete?'danger':'success'}`}>
+                    <button onClick={()=>dispatch(toggle(todo.id))} className={`btn btn-${todo.isComplete?'warning':'success'}`}>
                         {todo.isComplete?'Undo':'Set Complete'}
                     </button>
                 </td>
@@ -19,7 +19,7 @@ export function ListTodo(){
         )
     })
     return (
-            <div className="row mt-5">
+            <div className="row mt-5 mx-0">
                 <table className="table table-bordered">
                     <thead>
                         <tr>

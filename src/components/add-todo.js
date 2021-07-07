@@ -11,7 +11,6 @@ export function AddTodo(){
         isComplete: false
     });
 
-
     return (
         <form>
             <div className="form-group row my-5">
